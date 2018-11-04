@@ -4,6 +4,19 @@
 *.ipr
 *.iws
 
+# Eclipse
+/.settings/
+/bin/
+/.classpath
+/.project
+/*.launch
+
+/*/.settings/
+/*/bin/
+/*/.classpath
+/*/.project
+/*/*.launch
+
 # folders
 .gradle/
 classes/
@@ -11,3 +24,7 @@ build/
 run/
 out/
 /changelog.html
+
+# editors
+*.swp
+*.kate-swp
